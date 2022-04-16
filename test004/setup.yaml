@@ -1,0 +1,14 @@
+version: sdd/v1
+kind: tpl
+metadata:
+  tpl: grpc-go/grpc-go-4
+  project:
+    projectName: myproject1
+    output: ''
+  service:
+    serviceName: service1
+    pb: ./abc/a123/test.proto
+  custom:
+    aa: bbb
+    goPackage: abc/a123/app1
+
